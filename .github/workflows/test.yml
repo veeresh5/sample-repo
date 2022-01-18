@@ -9,8 +9,6 @@ jobs:
   steps:
    - name: test with own writing
      run: echo ${{github.run_number}}
-   - name: oc-login
-#      run: ./oc
  deploy:
   needs: build
   runs-on: windows-latest
