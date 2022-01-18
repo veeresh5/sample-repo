@@ -14,4 +14,4 @@ jobs:
   runs-on: windows-latest
   steps:
    - name: test with own writing
-     run: echo ${github.run_number}
+     run: echo $(github.run_number)
