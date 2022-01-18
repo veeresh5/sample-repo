@@ -40,3 +40,4 @@ jobs:
         run: echo ${{ github.run_id }}
       - name: Output Run Number
         run: echo ${{ github.run_number }}
+run
