@@ -9,6 +9,7 @@ jobs:
   steps:
    - name: test with own writing
      run: echo ${{github.run_number}}
+     r
  deploy:
   needs: build
   runs-on: ubuntu-latest
