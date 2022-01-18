@@ -53,6 +53,5 @@ jobs:
     steps: 
      -name: trying with other name 
       run: |
-      - name: Output Run Number
-        run: echo ${{ github.run_number }}
+        echo ${{ github.run_number }}
       
