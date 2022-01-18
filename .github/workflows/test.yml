@@ -8,3 +8,8 @@ jobs:
   steps:
    - name: test with own writing
      run: echo ${{github.run_number}}
+ deploy:
+  runs-on: ubuntu-latest
+  steps:
+   - name: test with own writing
+     run: echo ${{github.run_number}}
